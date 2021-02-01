@@ -25,7 +25,10 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+	line-height: 32px;
+	font-family: MErriweather, 'Times New Roman', serif;
+	font-size: 18px;
+	color: #333;
 }
 ol, ul {
 	list-style: none;
@@ -56,4 +59,31 @@ table {
 .cikk
 {
     background-color: rgba(255, 0, 0, .3);
+}
+
+h1,h2
+{
+	font-family: 'Open Sans', Arial, sans-serif;
+}
+
+h1
+{
+	font-size: 28.8px;
+}
+
+h2
+{
+	font-size: 25.6px;
+	color: #e5127d;
+}
+
+.main-header p
+{
+	font-size: 18px;
+	letter-spacing: 2px;
+}
+
+.nav p
+{
+	color: #8c8e9b;
 }
