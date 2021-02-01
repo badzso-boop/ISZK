@@ -25,9 +25,9 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 32px;
+	line-height: 2rem;
 	font-family: MErriweather, 'Times New Roman', serif;
-	font-size: 18px;
+	font-size: 1.125rem;
 	color: #333;
 }
 ol, ul {
@@ -48,12 +48,14 @@ table {
 
 .nav
 {
-    background-color: rgba(255, 248, 53, .3);
+	background-color: rgba(255, 248, 53, .3);
+	height: 25vh;
 }
 
 .main
 {
-    background-color: rgba(140, 96, 255, .3);
+	background-color: rgba(140, 96, 255, .3);
+	width: 50vw;;
 }
 
 .cikk
@@ -68,22 +70,23 @@ h1,h2
 
 h1
 {
-	font-size: 28.8px;
+	font-size: 1.8rem;
 }
 
 h2
 {
-	font-size: 25.6px;
+	font-size: 1.6rem;
 	color: #e5127d;
-}
-
-.main-header p
-{
-	font-size: 18px;
-	letter-spacing: 2px;
 }
 
 .nav p
 {
 	color: #8c8e9b;
+	font-size: 1.125rem;
+	letter-spacing: 0.125;
+}
+
+.picture
+{
+	width: 100%;
 }
