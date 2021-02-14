@@ -1,3 +1,8 @@
+*
+{
+	box-sizing: border-box;
+}
+
 /*========= CSS Reset =========*/
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -46,21 +51,38 @@ table {
 	border-spacing: 0;
 }
 
+/*========= Navigációs Sáv =========*/
 .nav
 {
-	background-color: rgba(255, 248, 53, .3);
+	background-color: #42444e;
 	height: 25vh;
+	color: #fff;
+	text-align: center;
+	padding: 1.25rem;
 }
 
+.nav p
+{
+	color: #8c8e9b;
+	font-size: 1.125rem;
+	letter-spacing: 0.125;
+}
+
+/*========= főoldal =========*/
+h1, h2, h3, h4, h5, h6, hgroup, ul, ol, dd, p, figure, pre, table, fieldset, hr, .nav, .main
+{
+	margin-bottom: 1rem;
+}
 .main
 {
-	background-color: rgba(140, 96, 255, .3);
-	width: 50vw;;
+	text-align: center;
 }
 
 .cikk
 {
-    background-color: rgba(255, 0, 0, .3);
+	width: 95%;
+	margin: 0 auto 1rem;
+	padding:  0.3125rem;
 }
 
 h1,h2
@@ -79,14 +101,47 @@ h2
 	color: #e5127d;
 }
 
-.nav p
-{
-	color: #8c8e9b;
-	font-size: 1.125rem;
-	letter-spacing: 0.125;
-}
-
 .picture
 {
 	width: 100%;
+}
+
+/*========= Kiegészítő Fájlok =========*/
+.button
+{
+	display: inline-block;
+	border: 1px solid #8c8e9b;
+	color: #8c8e9b;
+	border-radius: 10px;
+	padding-right: 5px;
+	padding-left: 5px;
+	margin: 5px;
+	width: 100px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.button:hover
+{
+	border: 1px solid #b60e63;
+}
+
+.load
+{
+	display: block;
+	text-align: center;
+	padding: 0.625rem;
+	font-size: 1.25rem;
+	color: #8c8e9b;
+}
+
+/*========= alap stílusok =========*/
+a
+{
+	color: #e5127d;
+	text-decoration: none;
+}
+
+a:hover
+{
+	color: #b60e63;
 }
