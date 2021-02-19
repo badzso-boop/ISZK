@@ -68,6 +68,25 @@ table {
 	letter-spacing: 0.125;
 }
 
+@media (min-width: 768px) 
+{
+	.nav
+	{
+		position: fixed;
+		top: 0;
+		height: 100%;
+		width: 33.3%;
+	}
+}
+
+@media (min-width: 1025px)
+{
+	.nav
+	{
+		width: 20.625%;
+	}
+}
+
 /*========= főoldal =========*/
 h1, h2, h3, h4, h5, h6, hgroup, ul, ol, dd, p, figure, pre, table, fieldset, hr, .nav, .main
 {
@@ -104,6 +123,26 @@ h2
 .picture
 {
 	width: 100%;
+}
+
+@media (min-width: 768px)
+{
+	.main
+	{
+		float: right;
+		width: 66.6%;
+		max-width: 812px;
+	}
+}
+
+@media (min-width: 1025px)
+{
+	.main
+	{
+		float: none;
+		position: absolute;
+		left: 20.625%;
+	}
 }
 
 /*========= Kiegészítő Fájlok =========*/
